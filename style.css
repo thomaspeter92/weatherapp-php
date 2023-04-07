@@ -1,0 +1,18 @@
+body {
+  background-image: url('images/gradient.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  max-width: 60vw;
+}
+@media(max-width: 700px) {
+    main {
+      max-width: 90vw;
+    }
+}
+
+#image-container img {
+  filter: drop-shadow(1px 1px 15px #333333);}
